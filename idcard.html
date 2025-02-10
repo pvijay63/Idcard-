@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ID card</title>
+    <style>
+        center{
+            width: 400px;
+            margin: 10px auto;
+            border: 2px solid blue;
+            border-radius: 50px;
+            position: relative;
+        }
+        .barcode{
+            transform: rotate(90deg);
+            position: absolute;
+            top: 250px;
+            right: -10px;
+        }
+        img{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+   <center>
+    <h1>Prakasam </h1>
+    <h1>Engineering College</h1>
+    <h5> approved by AICTE</h5>
+    <img src="vi2.jpg" alt=""style="width:200px;">
+    <img src="data:image/gif;base64,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" alt=" vijay" style="width: 150px;" class="barcode" >
+    <p>PARISIBOYINA VIJAY VARDHAN</p>
+    <P>21F91A4663</P>
+    <h3>2021-2025</h3>
+    <p>B.Tech cse-cyber</p>
+    <h3>address</h3>
+    <address>
+        <p>s/o P VENKATESWARLU</p>
+        <p>D.NO : 203</p>
+        <p>kakivoya </p>
+        <p>chejarla (mandalam)</p>
+        <p>Prakasam (district)</p>
+   </center>
+        </address>
+</body>
+
+</html>
